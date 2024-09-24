@@ -1,0 +1,15 @@
+On top of ensuring proper xHTML compliance ensure you include the following:
+
+Required xHTML elements (doctype, html, head, title, body)
+
+At least two links (one relative*, one absolute)
+
+At least two lists (one ordered, one unordered)
+
+At least two images (one relative, one absolute)
+
+At least one in-page anchor
+
+At least two headers (h1, h2, h3 or otherwise)
+
+At least two paragraphs (<p></p>), each with tag styled text (strong, em)

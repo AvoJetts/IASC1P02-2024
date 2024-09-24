@@ -1,0 +1,19 @@
+body {
+background-color: lightblue;
+}
+
+p {
+  color: orange;
+}
+
+.purpleText {
+  color: purple;
+}
+
+#myFirstID {
+  color: red;
+}
+
+.italicText {
+  font-style: italic;
+}
