@@ -1,5 +1,5 @@
 body {
-background-color: lightblue;
+  background-color: lightblue;
 }
 
 p {
@@ -16,4 +16,8 @@ p {
 
 .italicText {
   font-style: italic;
+}
+
+.fontChange {
+  font-family: Calibri,serif;
 }
