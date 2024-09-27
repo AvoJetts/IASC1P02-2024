@@ -1,0 +1,8 @@
+body{
+  background-color: red;
+}
+
+.greenitalic {
+  color: green;
+  font-style: italic;
+}
