@@ -1,0 +1,22 @@
+body {
+  background-color: green;
+}
+
+.greenbox {
+  border: 3px dashed black;
+  margin-left: 10px;
+}
+
+.redtext {
+  color: red;
+  margin-left: 10px;
+}
+
+.darkgreentext {
+  color: darkgreen;
+  margin-left: 10px;
+}
+
+.purpletext {
+  color: purple;
+}
