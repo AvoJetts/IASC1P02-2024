@@ -1,0 +1,35 @@
+#purpleborder {
+  border: 3px dotted purple;
+  padding-top: 300px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#greentext {
+  color: green;
+  font-size: 12px;
+  text-align: center;
+}
+
+.bigorange {
+  color: orange;
+  font-size: 20px;
+}
+
+#topred {
+  color: red;
+  font-size: 20px;
+  vertical-align: super;
+}
+
+.smallpurple {
+  color: purple;
+  font-size: 10px;
+  text-align: right;
+}
+
+#allcapsyellow {
+  color: yellow;
+  font-size: 10px;
+  text-transform: capitalize;
+}
