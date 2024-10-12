@@ -1,0 +1,28 @@
+body {
+  margin: 0; padding: 0;
+  color: white;
+}
+
+.wrapper{
+
+}
+
+.header {
+  height: 100px;
+  text-align: center;
+  background-color: red;
+  padding: 10px;
+}
+
+.body {
+  background-color: green;
+  text-align: left;
+  height: 1000px;
+  padding: 10px;
+}
+
+.footer {
+  background-color: blue;
+  height: 100px;
+  padding: 10px;
+}
