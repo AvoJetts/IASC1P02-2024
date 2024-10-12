@@ -1,17 +1,49 @@
 body{
   background-color: green;
-  margin: 0; padding 0;
+  margin-top: -19.91px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .wrapper{
-  width: 700px;
+  width: 1000px;
   background-color: white;
   margin: 0 auto;
 }
 
 .header{
-  height: 150px;
+  height: 100px;
   background-color: red;
   text-align: center;
-  clear:
+}
+
+.leftnav{
+  float: left;
+  height: 80px;
+  width: 300px;
+  background-color: lightgrey;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.rightnav{
+  float: right;
+  height: 80px;
+  width: 700px;
+  background-color: orange;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.body{
+  height: 769px;
+  background-color: blue;
+  font-weight: bold;
+}
+
+.footer{
+  height: 50px;
+  background-color: yellow;
+  font-weight: bold;
 }

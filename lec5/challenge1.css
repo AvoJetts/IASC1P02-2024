@@ -22,11 +22,11 @@ body {
   background-color: green;
   text-align: left;
   height: 1000px;
-  padding: 10px;
+  padding-top: 15px;
 }
 
 .footer {
   background-color: blue;
   height: 100px;
-  padding: 10px;
+  padding-top: 15px;
 }
