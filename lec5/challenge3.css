@@ -1,0 +1,36 @@
+body{
+  margin-bottom: 0;
+}
+
+.wrapper{
+  height: 911px;
+  width: auto;
+  background-color: green;
+}
+
+.bluebox{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  position: absolute;
+  left: 400px;
+  margin-top: 8px;
+}
+
+.redbox{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: absolute;
+  right: 400px;
+  margin-top: 8px;
+}
+
+.yellowbox{
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  position: absolute;
+  left: 860px;
+  top: 216px;
+}
