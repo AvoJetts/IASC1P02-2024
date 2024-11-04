@@ -1,0 +1,63 @@
+.orangetext{
+  color: orange;
+}
+
+.bigtext{
+  font-size: 24px;
+}
+
+.sanserif{
+  font-family: sans-serif;
+}
+
+.allcaps{
+  text-transform: uppercase;
+}
+
+.box1{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 300px;
+  border: 1px solid black;
+}
+
+.box2{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 100px;
+  border: 1px solid black;
+}
+
+.box3{
+  height: 50px;
+  width: 300px;
+  position: fixed;
+  bottom: 1px;
+  right: 1px;
+  border: 1px solid black;
+  text-align: right;
+}
+
+.nested p{
+  color: red;
+  font-family: sans-serif;
+}
+
+h3,h4{
+  color: green;
+  font-family: sans-serif;
+}
+
+.boxmodel{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background-color: lightblue;
+  text-align: center;
+  font-family: sans-serif;
+  border: 3px dashed darkgreen;
+  margin-top: 50px;
+  padding: 50px;
+}
