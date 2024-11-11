@@ -11,7 +11,7 @@ function mix(){
 	var third = "#AB00FF";
 
 	document.getElementById("blue").style.color=first;
-	document.getElementBy"green").style.color=second;
+	document.getElementById("green").style.color=second;
 	document.getElementById("red").style.color=third;
 
 }
