@@ -77,6 +77,12 @@ body{
   margin-top: 20px;
 }
 
+.socialcontent{
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .animecarousel{
   clear: left;
   display: flex;
@@ -105,6 +111,12 @@ body{
   text-align: center;
   height: 540px;
   width: 30%;
+}
+
+.newscontent{
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .mangacarousel{
@@ -137,8 +149,28 @@ body{
   width: 30%;
 }
 
-.lncarousel
+.discussionscontent{
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 
+.lncarousel{
+  clear: left;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 20px;
+}
 
-.footer
+.footer{
+  background-color: #0047AB;
+  height: 246px;
+  width: auto;
+  font-size: 30px;
+  color: White;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1px;
+}
