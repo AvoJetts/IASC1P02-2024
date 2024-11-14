@@ -1,0 +1,144 @@
+body{
+  background-color: white;
+}
+
+.header{
+  display: flex;
+  background-color: white;
+  height: auto;
+  width: auto;
+}
+
+.logo{
+  margin-right: 10px;
+}
+
+.welcome{
+  align-self: center;
+  margin-left: auto;
+  color: #0047AB;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.profile{
+  margin-left: 10px;
+}
+
+.nav{
+  float: left;
+  background-color: #0047AB;
+  height: 80px;
+  width: 70%;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.search{
+  display: flex;
+  float: right;
+  height: 80px;
+  width: 30%;
+  background-color: #0047AB
+}
+
+.searchbar{
+  background-color: white;
+  color: #0047AB;
+  font-size: 15px;
+  font-family: sans-serif;
+  align-self: center;
+  margin-left: auto;
+}
+
+.featuredanime{
+  float: left;
+  background-color: #0047AB;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  height: 50px;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.social{
+  float: right;
+  background-color: #0047AB;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  height: 540px;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.animecarousel{
+  clear: left;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 20px;
+}
+
+.featuredmanga{
+  float: left;
+  background-color: #0047AB;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  height: 50px;
+  width: 70%;
+}
+
+.news{
+  float: right;
+  background-color: #0047AB;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  height: 540px;
+  width: 30%;
+}
+
+.mangacarousel{
+  clear: left;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 20px;
+}
+
+.featuredln{
+  float: left;
+  background-color: #0047AB;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  height: 50px;
+  width: 70%;
+}
+
+.discussions{
+  float: right;
+  background-color: #0047AB;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  height: 540px;
+  width: 30%;
+}
+
+.lncarousel
+
+
+
+.footer
