@@ -1,0 +1,60 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+
+h1{
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+p{
+  position: absolute;
+  width: 50%;
+  text-align: left;
+  left: 25%;
+  top: 15%;
+  font-size: 25px;
+}
+
+.logo{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  left: 5%;
+  top: 5%;
+  transition: .3s ease;
+}
+
+.logo:hover{
+  transform: scale(1.2);
+  opacity:
+}
+
+.Arrow{
+  position: absolute;
+  left: 17%;
+  top: 3%;
+}
+
+.Home{
+  background-color: #ff746c;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.Menu{
+  background-color: #FBBF58;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.Delivery{
+  background-color: #ff746c;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.About{
+  background-color: #FBBF58;
+  font-family: "Nunito Sans", sans-serif;
+}
