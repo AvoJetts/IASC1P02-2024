@@ -18,3 +18,6 @@ function PizzaButton(){
 function DrinkButton(){
 	window.location.href="DrinkMenu.html"
 }
+function DeliveryButton(){
+	window.location.href="Delivery.html"
+}
