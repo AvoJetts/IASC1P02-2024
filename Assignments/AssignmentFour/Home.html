@@ -12,44 +12,82 @@
 
 <body>
 
-  <!-- <div id="fullpage">
-  	<div
-      class="Home">Some section
-    </div>
-    <div
-      class="Menu">Some section
-    </div>
-    <div
-      class="Delivery">Some section
-    </div>
-    <div
-      class="About">Some section
-    </div>
-  </div> -->
-
-
   <div id="fullpage">
   	<div class="section Home">
-      <h1>Home</h1>
+			<!-- Structure -->
+			<div class="header"></div>
+			<div class="footer"></div>
+			<!-- Structure -->
+			<!-- Graphics -->
       <img class="logo" onclick="Music()" src="Images/PizzaCompanyLogo1.png"></img>
       <img class="Arrow" src="Images/Arrow.png" alt="">
-      <p>
-        At Peter’s, we believe that great pizza deserves great beer—and we’ve perfected the art of pairing the two. Our menu features fresh, handcrafted pizzas, each designed to shine alongside our rotating selection of craft beers. Whether you prefer a hoppy IPA to cut through cheesy goodness or a smooth lager to complement bold toppings, we’ve got the perfect pairing for every bite.
-    </p>
+			<img class="HeaderImg" src="Images/Header.png" alt="">
+			<img class="FooterImg" src="Images/Footer.png" alt="">
+			<!-- Graphics -->
+			<!-- Text -->
+			<h1>Peter's Pizza + Bar</h1>
+      <p class="Welcome">Welcome, take a seat.</p>
+			<p class="Grab">Grab a slice.</p>
+			<p class="Buy">Buy a drink.</p>
+			<p class="Have">Have a chat.</p>
+			<p class="Enjoy">Enjoy.</p>
     </div>
   	<div class="section Menu">
+			<!-- Structure -->
+			<div class="header"></div>
+			<div class="footer"></div>
+			<!-- Graphics -->
+			<img class="HeaderImg" src="Images/Header.png" alt="">
+			<img class="FooterImg" src="Images/Footer.png" alt="">
+			<!-- Text -->
       <h1>Menu</h1>
-      <p>
-        At Peter’s, we believe that great pizza deserves great beer—and we’ve perfected the art of pairing the two. Our menu features fresh, handcrafted pizzas, each designed to shine alongside our rotating selection of craft beers. Whether you prefer a hoppy IPA to cut through cheesy goodness or a smooth lager to complement bold toppings, we’ve got the perfect pairing for every bite.
-    </p>
+      <p class="Hungry">Hungry?</p>
+			<p class="Thirsty">Thirsty?</p>
+			<!-- Pizza Menu Button -->
+			<div class="PizzaButtonContainer" onclick="PizzaButton()">
+				<img class="PizzaButton" src="Images/PizzaButton.png" alt=""></img>
+				<div class="PizzaButtonOverlay">
+					<div class="PizzaButtonText">Pizza Menu</div>
+				</div>
+			</div>
+			<!-- Drink Menu Button -->
+			<div class="DrinkButtonContainer" onclick="DrinkButton()">
+				<img class="DrinkButton" src="Images/DrinkButton.png" alt=""></img>
+				<div class="DrinkButtonOverlay">
+					<div class="DrinkButtonText">Drink Menu</div>
+				</div>
+			</div>
+			<!-- Graphics -->
+			<img class="Slice1" src="Images/Slice.png" alt=""></img>
+			<img class="Slice2" src="Images/Slice.png" alt=""></img>
+			<img class="Pizza1" src="Images/Pizza.png" alt=""></img>
+			<img class="Pizza2" src="Images/Pizza.png" alt=""></img>
+			<img class="Stout1" src="Images/Stout.png" alt""></img>
+			<img class="Stout2" src="Images/Stout.png" alt""></img>
+			<img class="Lager1" src="Images/Lager.png" alt""></img>
+			<img class="Lager2" src="Images/Lager.png" alt""></img>
+			<!-- Drink Menu Hover Graphics -->
     </div>
   	<div class="section Delivery">
+			<!-- Structure -->
+			<div class="header"></div>
+			<div class="footer"></div>
+			<!-- Graphics -->
+			<img class="HeaderImg" src="Images/Header.png" alt="">
+			<img class="FooterImg" src="Images/Footer.png" alt="">
+			<!-- Text -->
       <h1>Delivery</h1>
       <p>
-        At Peter’s, we believe that great pizza deserves great beer—and we’ve perfected the art of pairing the two. Our menu features fresh, handcrafted pizzas, each designed to shine alongside our rotating selection of craft beers. Whether you prefer a hoppy IPA to cut through cheesy goodness or a smooth lager to complement bold toppings, we’ve got the perfect pairing for every bite.
     </p>
     </div>
   	<div class="section About">
+			<!-- Structure -->
+			<div class="header"></div>
+			<div class="footer"></div>
+			<!-- Graphics -->
+			<img class="HeaderImg" src="Images/Header.png" alt="">
+			<img class="FooterImg" src="Images/Footer.png" alt="">
+			<!-- Text -->
       <h1>About</h1>
       <p>
         At Peter’s, we believe that great pizza deserves great beer—and we’ve perfected the art of pairing the two. Our menu features fresh, handcrafted pizzas, each designed to shine alongside our rotating selection of craft beers. Whether you prefer a hoppy IPA to cut through cheesy goodness or a smooth lager to complement bold toppings, we’ve got the perfect pairing for every bite.
@@ -60,8 +98,13 @@
   </div>
 
 <!-- importing scripts -->
+
+<!-- loading fullpage -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.31/fullpage.min.js" integrity="sha512-x5JY7KTULoGmcgxguKf5p4i3wfx7qXlY3OMjqez4Pj8BPoMn4krRQmwDtOwF81F+/9Be+jvhBsKOIaPPZmRelQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script type="text/javascript" src="Home.js"></script>
+<!-- loading typewriter -->
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<!-- loading script page -->
+<script defer type="text/javascript" src="Home.js"></script>
 
 </body>
 
